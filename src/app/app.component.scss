@@ -1,0 +1,85 @@
+
+body {
+    margin: 40px; // Establece un margen de 40px alrededor del cuerpo de la página
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); // 5 columnas iguales (Lun a Vie)
+    grid-template-rows: auto repeat(7, 1fr); // 1 fila para título + 7 filas para horarios
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .title {
+    grid-column: 1 / -1; // Ocupa todas las columnas
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #095bb9;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .day-header-lunes {
+    background-color: #e26212;
+    text-align: center;
+    color: #fff; // Texto blanco para las cajas
+    border-radius: 5px; // Bordes redondeados con radio de 5px
+    padding: 20px; // Relleno interno de 20px
+    font-size: 150%; // Tamaño de fuente al 150% del tamaño base
+  }
+
+  .day-header-martes {
+    background-color: #046317;
+    text-align: center;
+    color: #fff; // Texto blanco para las cajas
+    border-radius: 5px; // Bordes redondeados con radio de 5px
+    padding: 20px; // Relleno interno de 20px
+    font-size: 150%; // Tamaño de fuente al 150% del tamaño base
+  }
+
+  .day-header-miercoles {
+    background-color: #046360;
+    text-align: center;
+    color: #fff; // Texto blanco para las cajas
+    border-radius: 5px; // Bordes redondeados con radio de 5px
+    padding: 20px; // Relleno interno de 20px
+    font-size: 150%; // Tamaño de fuente al 150% del tamaño base
+  }
+
+  .day-header-jueves {
+    background-color: #3a0463;
+    text-align: center;
+    color: #fff; // Texto blanco para las cajas
+    border-radius: 5px; // Bordes redondeados con radio de 5px
+    padding: 20px; // Relleno interno de 20px
+    font-size: 150%; // Tamaño de fuente al 150% del tamaño base
+  }
+
+  .day-header-viernes {
+    background-color: #5c3403;
+    text-align: center;
+    color: #fff; // Texto blanco para las cajas
+    border-radius: 5px; // Bordes redondeados con radio de 5px
+    padding: 20px; // Relleno interno de 20px
+    font-size: 150%; // Tamaño de fuente al 150% del tamaño base
+  }
+  
+  .box {
+    background-color: #67ced3; // Fondo gris oscuro para las cajas
+    color: #fff; // Texto blanco para las cajas
+    border-radius: 5px; // Bordes redondeados con radio de 5px
+    padding: 20px; // Relleno interno de 20px
+    font-size: 150%; // Tamaño de fuente al 150% del tamaño base
+  }
+
+  .header {
+    grid-area: header;
+  }
+  
+  
